@@ -202,12 +202,12 @@
    height: 47px;
 }
 
-.insta-posts{
+.insta-img{
    position: relative;
    overflow: hidden;
 }
 
-.insta-posts .insta-btn{
+.insta-img .insta-btn{
    width: 90px;
    height: 90px;
    background-color: white;
@@ -222,15 +222,15 @@
    opacity: 0;
 }
 
-.insta-posts img{
+.insta-img img{
    transition: all 0.4s;
 }
 
-.insta-posts:hover img{
+.insta-img:hover img{
    transform: scale(1.2);
 }
 
-.insta-posts:hover .insta-btn{
+.insta-img:hover .insta-btn{
    opacity: 1;
 }
 
