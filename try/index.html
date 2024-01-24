@@ -45,7 +45,9 @@
              
             </ul>
             <div class="d-flex" style="justify-content: flex-end;">
-            <a href="#" class="btn btn-brand  me-3">Login</a>
+            <a href="#" class="btn btn-brand position-relative me-3">Login<span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden"> New Alerts</span>
+            </span></a>
             <a href="#reservation" class="btn btn-brand ms-auto">Book Table</a>
           </div>
           </div>
@@ -688,6 +690,7 @@
           </div>
         </div>
       </section>
+
       <section id="alumni">
         <div class="container">
           <div class="row ">
@@ -849,19 +852,19 @@
             <div class="col-lg-8">
               <div class="row g-3">
                 <div class="form-group col-md-6">
-                  <input type="text"class="form-control" placeholder="Full name">
+                  <input type="text" class="form-control" placeholder="Full name">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="email"class="form-control" placeholder="Email Address">
+                  <input type="email" class="form-control" placeholder="Email Address">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="date"class="form-control" placeholder="Date">
+                  <input type="date" class="form-control" placeholder="Date">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="text"class="form-control" placeholder="Number of Persons">
+                  <input type="text" class="form-control" placeholder="Number of Persons">
                 </div>
                 <div class="form-group col-md-12">
-                  <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+                  <textarea name="message" id="message" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
                 </div>
                 <div class="form-group col-md-12 text-center">
                   <a href="#" class="btn btn-brand">Book Now</a>
@@ -912,36 +915,35 @@
             <div class="col-12 intro-text">
               <h1>Our Channel</h1>
               <p >Dive into the heart and soul of Hot Pot dining as we explore the artistry behind this beloved culinary tradition. From selecting the perfect broth to crafting a personalized masterpiece at your table.</p>
-             
-              <div><span><p>Subscribe to our channel</p></span>
-              <span class="ytchannel">
-                <a href="https://www.youtube.com/@tastyrecipes" target="_blank">
-                <i class="ri-youtube-fill" style="font-size: 28px; margin-right: 10px; color: red;" href="https://www.youtube.com/@tastyrecipes"></i></a>
-                <i class="ri-notification-3-fill" style="font-size: 28px;"></i>
-              </div>
-             
-              
+              <div><p>Subscribe to our channel</p>
+                <span class="ytchannel">
+                  <a href="https://www.youtube.com/@tastyrecipes" target="_blank">
+                  <i class="ri-youtube-fill" style="font-size: 28px; margin-right: 10px; color: red;"></i></a>
+                  <i class="ri-notification-3-fill" style="font-size: 28px;"></i>
+                  </span>  
+                </div>
             </div>
-          </div>
+            </div>
+
           <div class="row g-3">
             <div class="col-sm-6">
-              <div class="ytchannel-post d-flex shadow-on-hover">
+              <div class="ytchannel d-flex shadow-on-hover">
                 <iframe src="https://www.youtube.com/embed/x2AZJ6QK1K4"></iframe>
                 <div class="ytchannel-post-content p-4">
                   <p>posted: 25 Dec,2023</p>
-                  <h4><a href="#">Cheese recipes the entire family will love!</a></h4>
+                  <h4><a href="https://www.youtube.com/embed/x2AZJ6QK1K4">Cheese recipes the entire family will love!</a></h4>
                   <p>Welcome to the official YouTube channel for all your Tasty recipe needs. Join us as we dig into loads of fun and drool-worthy dishes.</p>
                   
-
                 </div>
               </div>
             </div>
+
             <div class="col-sm-6">
               <div class="ytchannel d-flex shadow-on-hover">
                 <iframe src="https://www.youtube.com/embed/KL352kWHEr0"></iframe>
                 <div class="ytchannel-content p-4">
                   <p>posted: 18 Dec,2023</p>
-                  <h4><a href="#">Try These Japanese Dishes At Home</a></h4>
+                  <h4><a href="https://www.youtube.com/embed/KL352kWHEr0">Try These Japanese Dishes At Home</a></h4>
                   <p>Join us as we dig into loads of fun and drool-worthy dishes. From easy make-ahead meals to dinner party showstoppers.</p>
                   
 
@@ -953,7 +955,7 @@
                 <iframe src="https://www.youtube.com/embed/v5Oa-NbG_Ho"></iframe>
                 <div class="ytchannel-content p-4">
                   <p>posted: 21 Jan,2024</p>
-                  <h4><a href="#">6 Korean-Inspired Recipes to Try At Home</a></h4>
+                  <h4><a href="https://www.youtube.com/embed/v5Oa-NbG_Ho">6 Korean-Inspired Recipes to Try At Home</a></h4>
                   <p>From easy make-ahead meals to dinner party showstoppers, grab your apron and let's get cooking! Craving seconds? Subscribe!</p>
                   
 
@@ -965,7 +967,7 @@
                 <iframe src="https://www.youtube.com/embed/AN39KCqsD_8"></iframe>
                 <div class="ytchannel-content p-4">
                   <p>posted: 25 Nov,2023</p>
-                  <h4><a href="#">6 One-Pan Chicken Recipes For Beginners</a></h4>
+                  <h4><a href="https://www.youtube.com/embed/AN39KCqsD_8">6 One-Pan Chicken Recipes For Beginners</a></h4>
                   <p>Grab your apron and let's get cooking! Craving seconds? Subscribe!Join us as we dig into loads of fun and drool-worthy dishes.</p>
 
                 </div>
@@ -975,12 +977,12 @@
 
         </div>
       </section>
-      <section id="footer"class="bg-cover">
+      <section id="footer" class="bg-cover">
         <div class="footer-top gy-5">
           <div class="container">
             <div class="row">
               <div class="col-lg-4">
-                <img src="../try/images/logonew2.png"  class="mb-4" alt="">
+                <a href="#"><img src="../try/images/logonew2.png"  class="mb-4" alt=""></a>
                 <p class="text-left">Lorem ipsum dolor sit ame dolorem fugit debitis corrupti, alias magnam?</p>
 
                 <h4 class="text-white">Follow us</h4>
